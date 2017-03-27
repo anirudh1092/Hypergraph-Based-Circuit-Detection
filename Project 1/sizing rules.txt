@@ -1,0 +1,26 @@
+Circuits found
+Common Current Mirror
+Differential Stage
+Common Current Mirror
+Level Shifter
+Current Mirror Bank
+4-Transistor Current Model
+Current Mirror Load
+Darlington Pair
+Current Mirror
+Sizing Rules
+Common Current Mirror
+FG1 : w1ls=w1cm
+FG2 : w2ls=w2cm
+Level Shifter
+FG : l1=l2
+"RE : Vgs(1,2)-Vth(1,2)>=Vgsmin
+4 Transistor Current Mirror
+FG1 : wvrl=wvrl
+FG2 : wcm=wcml
+FE : |Vds_vrl(1,2)-Vds_dscml|<=Vdsmax
+Darligton Pair
+FG1: l1=l2
+FG2: w1=w2
+FE: |Vds2-Vdsmin|<delVdsmax
+RE: |Vgs2-Vgs1|<delVgsmax
